@@ -59,6 +59,7 @@ class _TextFieldWidgetKullanimiState extends State<TextFieldWidgetKullanimi> {
   @override
   void dispose() {
     _emailController.dispose();
+    _focusNode.dispose();
     super.dispose();
   }
 
